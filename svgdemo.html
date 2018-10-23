@@ -1,0 +1,166 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+
+</script>
+<script>
+
+    
+    $( document ).ready(function() {
+        
+   $("#domain-img-2-1").hide();
+   $("#domain-img-2-2").hide();
+   $("#domain-img-2-3").hide();
+   $("#domain-img-2-4").hide();
+   $("#domain-img-2-5").hide();
+     $("#domain-img-2-1").fadeIn(2000);
+     $("#domain-img-2-2").delay(1000).fadeIn(200);
+     $("#domain-img-2-3").delay(2000).fadeIn(200);
+     $("#domain-img-2-4").delay(3000).fadeIn(200);
+     $("#domain-img-2-5").delay(4000).fadeIn(200);
+});
+</script>
+<span id="svg1"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="180px" height="500px" viewBox="0 0 343 333" >
+    <path class="path-up" fill="none" stroke="#5d5b5b"  stroke-width="3" stroke-miterlimit="10" 
+        d="M15 -80 q 150 -150 300 0" /> 
+</svg> </span>
+    
+  <img class="domain-img" id="domain-img-2-1" width="90" height="90" src="images/images/3x/Asset%20281@3x.png" >
+  <img class="domain-img" id="domain-img-2-2" width="90" height="90" src="images/images/3x/Asset%20281@3x.png" >
+  <img class="domain-img" id="domain-img-2-3" width="90" height="90" src="images/images/3x/Asset%20281@3x.png" >
+  <img class="domain-img" id="domain-img-2-4" width="90" height="90" src="images/images/3x/Asset%20281@3x.png" >
+  <img class="domain-img" id="domain-img-2-5" width="90" height="90" src="images/images/3x/Asset%20281@3x.png" >
+
+<span id="svg2">
+  <svg  width="180px" height="500px" viewBox="0 0 340 333" >
+  <path class="path-down" fill="none" stroke="#5d5b5b"  stroke-width="3" stroke-miterlimit="10" 
+               d="M15 70 q 150 150 300 0" />
+</svg></span>
+
+<span id="svg3"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="180px" height="500px" viewBox="0 0 343 333" >
+    <path class="path-up" fill="none" stroke="#5d5b5b"  stroke-width="3" stroke-miterlimit="10" 
+        d="M15 -80 q 150 -150 300 0" /> 
+</svg> </span>
+
+<span id="svg4">
+  <svg  width="180px" height="500px" viewBox="0 0 340 333" >
+  <path class="path-down" fill="none" stroke="#5d5b5b"  stroke-width="3" stroke-miterlimit="10" 
+               d="M15 70 q 150 150 300 0" />
+</svg></span>
+    <style>
+  
+ #svg1 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 3s ease-in-out forwards;
+     
+     
+     }
+
+#svg2{
+            stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+    
+  animation: dash 3s ease-in-out forwards;
+    animation-delay: 0.9s;
+        }
+#svg3 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+     
+  animation: dash 3s ease-in-out forwards;
+    animation-delay: 1.9s;
+     
+     }
+        
+    #svg4{
+            stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+    
+  animation: dash 3s ease-in-out forwards;
+    animation-delay: 2.7s;
+        }
+        
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+        
+    @keyframes images {
+  from {
+    transform: scaleY(2);
+    transform: scaleX(2);
+  }
+  to {
+}
+}
+        
+        #domain-img-2-1{
+            position: absolute;
+            left:170;
+            top:120;
+             animation: images 0.4s ease;  
+        }
+        #domain-img-2-2{
+            position: absolute;
+            left:370;
+            top:120;
+            animation: images 1s ease; 
+        }
+        #domain-img-2-3{
+            position: absolute;
+            left:570;
+            top:120;
+            animation: images .4s ease; 
+        }
+        #domain-img-2-4{
+            position: absolute;
+            left:770;
+            top:120;
+            animation: images 0.4s ease; 
+        }
+        #domain-img-2-5{
+            position: absolute;
+            left:970;
+            top:120;
+            animation: images 0.4s ease; 
+        }
+        
+        #svg1{
+            position:absolute;
+            left:230;
+            top:0;
+        }
+        #svg2{
+            position:absolute;
+            left:430;
+            top:20;
+        }
+        #svg3{
+            position:absolute;
+            left:630;
+            top:0;
+        }
+          #svg4{
+            position:absolute;
+            left:830;
+            top:20;
+        }
+        .domain-img{   
+        height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 0px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 45px 0px rgb(0, 0, 0);
+        }
+        
+        
+</style>
